@@ -1,0 +1,39 @@
+# General Node.js & Hardhat artifacts
+node_modules/
+package-lock.json
+.env
+
+# Hardhat Cache and Artifacts
+cache/
+artifacts/
+
+# Rust and Cargo
+/target/
+/**/Cargo.lock
+**/*.rs.bk
+
+# Sui Node Specific Files
+sui-node/db/        # Sui local node data
+sui-node/logs/      # Logs and temporary files
+sui-node/genesis.blob
+
+# Python Virtual Environments
+venv/
+__pycache__/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Temporary Files
+*.log
+*.tmp
+*.swp
+
+# Secrets and sensitive data
+*.key
+*.pem
+.env
+
+# GitHub Workflow Logs (optional)
+.github/workflows/*.log
